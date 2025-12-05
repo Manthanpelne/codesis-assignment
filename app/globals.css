@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.radial-gradient-background {
+
+  /* Radial Gradient CSS */
+  background-image: radial-gradient(
+    circle at center,
+    /* Color 1: Center (like blue-200) */
+    #7D59C3,
+    /* Color 2: Edges (like green-200) */
+    #ffffff
+  );
+}
