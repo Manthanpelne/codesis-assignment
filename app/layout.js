@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,9 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="relative max-w-[1440px] mx-auto">
+      <body className="relative max-w-screen-2xl bg-[#F5F4F8] mx-auto">
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
