@@ -55,7 +55,7 @@ const Footer = () => {
 
           <div className="text-white/40 w-full lg:w-1/2 md:text-[12px] m-auto grid grid-cols-3 gap-x-5 md:gap-x-12 gap-y-8">
               <div>
-                  <img className="w-[119px] h-[70px]" src="/group 236.png" alt="" />
+                  <img className="w-[119px] h-[70px]" src="/Group 236.png" alt="" />
               </div>
               <div>
                 <h2 className="text-white">React Us At</h2>

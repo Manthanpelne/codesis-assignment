@@ -15,7 +15,7 @@ const Header = () => {
     <div className='w-full absolute z-50 top-0 py-[27px] px-5 xl:px-[75px] flex items-center justify-between'>
       {/* 1. Logo Section (Always Visible) */}
       <div className='flex items-center gap-10 xl:gap-20'>
-        <img className='w-[90px] h-[54px]' src="/group 236.png" alt="Logo" />
+        <img className='w-[90px] h-[54px]' src="/Group 236.png" alt="Logo" />
    
 
       {/* 2. Desktop Navigation (Hidden on small screens) */}
